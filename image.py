@@ -29,7 +29,7 @@ class GetMeiziPic(object):
         print("===============   start   ===============");
 
         last = 'last'
-        i = 900
+        i = 1700
         if os.path.exists(last):
             i = int(open(last, 'r').read(1000))
             print 'last', i
